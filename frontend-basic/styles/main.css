@@ -1,0 +1,132 @@
+body {
+  background-color: gray;
+}
+
+header {
+  padding: 70px 16px;
+  background: #484848;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  word-spacing: 30px;
+}
+
+.pseudolink {
+  font-size: 40px;
+  color: black;
+  padding: 20px;
+  background: gray;
+  cursor: pointer;
+}
+
+#homebtn {
+  background: yellow;
+}
+
+#inputBox {
+  margin-left: 25%;
+}
+
+#emptyText {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: yellow;
+  text-align: center;
+  font-size: 30;
+}
+
+/* Style the input */
+#myInput {
+  margin-bottom: 0;
+  border: none;
+  border-radius: 0;
+  width: 35%;
+  padding: 10px;
+  font-size: 16px;
+  float: left;
+}
+
+#searchItems {
+  float: none;
+  padding: 30px;
+  border: none;
+  font-size: 17px;
+}
+
+#searchItems input[type=text] {
+  border: none;
+  border-radius: 0;
+  margin-left: 24.3%;
+  width: 35%;
+  padding: 10px;
+  font-size: 16px;
+  float: left;
+}
+
+#sortingButton {
+  width: 5%;
+  height: 4%;
+  float: left;
+  margin-right: 10px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+  width: auto;
+  height: 30;
+}
+
+.xbtn {
+  float: right;
+  margin-right: 10px;
+}
+
+/* Style the "Add" button */
+.addBtn {
+  padding: 10px;
+  width: 30%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 0;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+
+.container {
+  margin-top: 30px;
+  background: #484848;
+  color: white;
+  position: sticky;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.container input {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 33px;
+  width: 33px;
+}
+
+.creation {
+  font-size: 17;
+  opacity: 40%;
+}
