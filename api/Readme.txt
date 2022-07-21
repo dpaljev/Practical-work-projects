@@ -1,0 +1,1 @@
+requires node, express, jwt, bcrypt and mysql2
